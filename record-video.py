@@ -41,7 +41,7 @@ def record(camera_id):
         os.makedirs(output_path)
 
     # Construct filename
-    filename = f"{device_id}_cam{camera_id}_{str_dt}.mp4"
+    filename = f"{device_id}_{str_dt}.mp4"
     tmp_path = os.path.join('/tmp', filename)
     out_path = os.path.join(output_path, filename)
 
