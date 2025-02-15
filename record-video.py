@@ -66,7 +66,7 @@ def record(camera_id):
 
         elif camera_id == 'usb':
             command_record = (
-                f'ffmpeg -t {var_length} -f v4l2 -framerate {var_framerate} "
+                f'ffmpeg -t {var_length} -f v4l2 -framerate {var_framerate} 
                 f'-video_size {var_resolution[0]}x{var_resolution[1]} -i {var_usb_device} {tmp_path}'
             )
             print(f'Starting to record {tmp_path}')
