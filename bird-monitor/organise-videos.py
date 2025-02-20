@@ -1,6 +1,7 @@
 import os
 import shutil
 import re
+from fetch_settings import server_data_path
 
 def reorganize_videos(input_dir, output_dir):
     """
@@ -88,6 +89,6 @@ def remove_zero_byte_files(directory):
     print("Reorganization complete!")
 
 if __name__ == "__main__":
-    input_directory = "/media/or22503/ChickenHDD5/Data/raw_videos/"
-    output_directory = "/media/or22503/ChickenHDD5/Data/reorganised_videos/"
+    input_directory = server_data_path
+    output_directory = input_directory.replace("raw_videos", "organised_videos")
     reorganize_videos(input_directory, output_directory)
