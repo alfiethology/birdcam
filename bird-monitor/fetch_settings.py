@@ -1,7 +1,7 @@
 import os
 # list of clients (e.g. camera units)
 client_list = ['pi@192.168.0.100']
-client_password = 'whatever' # password for client
+client_password = 'woodland' # password for client
 client_data_path = '/home/pi/Data/' # path to data on client
 server_data_path = '/home/pi/Downloads/birdcam/Data/' # path where data should go on server
 fetch_then_move = False # trigger move2ext.py straight after finishing with fetching (something is off with this, so leave it False and call it separately)
