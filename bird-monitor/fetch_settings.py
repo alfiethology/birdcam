@@ -1,16 +1,6 @@
 import os
 # list of clients (e.g. camera units)
-client_list = ['pi@192.168.0.101',
-               'pi@192.168.0.102',
-               'pi@192.168.0.103',
-               'pi@192.168.0.104',
-               'pi@192.168.0.105',
-               'pi@192.168.0.106',
-               'pi@192.168.0.107',
-               'pi@192.168.0.108',
-               'pi@192.168.0.109',
-               'pi@192.168.0.110',
-               'pi@192.168.0.100']
+client_list = ['pi@192.168.0.100']
 client_password = 'whatever' # password for client
 client_data_path = '/home/pi/Data/' # path to data on client
 server_data_path = '/home/pi/Downloads/birdcam/Data/' # path where data should go on server
