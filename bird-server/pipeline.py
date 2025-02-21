@@ -2,9 +2,9 @@ import subprocess
 
 # Define the scripts to run in order
 scripts = [
-    "fetch-data.py",
-    "organise-videos.py",
-    "move2ext.py"
+    "/home/pi/birdcam/bird-server/fetch-data.py",
+    "/home/pi/birdcam/bird-server/organise-videos.py",
+    "/home/pi/birdcam/bird-server/move2ext.py"
 ]
 
 for script in scripts:
