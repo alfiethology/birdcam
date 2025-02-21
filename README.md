@@ -1,4 +1,3 @@
-```markdown
 # Bird Feeder Monitoring System
 
 This guide provides setup instructions for a bird feeder monitoring system using Raspberry Pi devices, a PIR sensor, and a camera. The system consists of three components:  
